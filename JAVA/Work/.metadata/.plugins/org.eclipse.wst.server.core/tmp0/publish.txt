@@ -1,0 +1,3 @@
+#Tomcat publish data
+#Tue Dec 26 11:54:47 KST 2017
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Administrator\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-web\\4.1.9.RELEASE\\3016ea9912a6fa37a8b181887019c1c9fac06e9c\\spring-web-4.1.9.RELEASE.jar=WEB-INF/lib/spring-web-4.1.9.RELEASE.jar

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>배열 요소 추가</title>
+    <script type="text/javascript">
+        var arr = [true,100,'eight'];
+        console.log('length='+arr.length);
+        console.log(arr);
+
+        console.log('------------------');
+        arr[60] = null;
+        arr[arr.length] = {fname:'milk',lname:'jone'};
+        console.log('length='+arr.length);
+        console.log(arr);
+
+        console.log('------------------');
+        arr.length = 100;
+        arr[arr.length] = 'ten';
+        console.log('length='+arr.length);
+        console.log(arr);
+
+        console.log('------------------');
+        for(var i in arr) {
+            console.log('arr['+i+']='+arr[i]);
+        }
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
+
+
